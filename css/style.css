@@ -1359,6 +1359,20 @@ background-size: 400%;
 animation: AnimationName 7s ease infinite;
 }
 
+@media screen and (max-width: 600px) {
+  /* styles for screens smaller than 600px */
+  .container {
+    width: 100%;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+}
+
+
 @keyframes AnimationName {
 0%,
 100% {
